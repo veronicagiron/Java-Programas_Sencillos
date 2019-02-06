@@ -21,7 +21,7 @@ public class Cancion {
 		duracion = 0;
 		formato = null;
 	}
-	
+	System.out.println("te he modificado");	
 	public Cancion(String titulo, String autor, int duracion, Codecs format) {
 		this.titulo = titulo;
 		this.autor = autor;
